@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f36b21">
+  <meta name="description" content="Encontre o modelo do seu celular e solicite um orçamento de assistência técnica com a Gislan Tec.">
+  <title>Gislan Tec | Assistência para seu celular</title>
+  <link rel="icon" href="assets/telefone-gislan.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Gislan Tec, início">
+      <span class="brand-mark" aria-hidden="true">G</span>
+      <span class="brand-copy"><strong>Gislan Tec</strong><small>ASSISTÊNCIA TÉCNICA</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#escolher">Escolher celular</a>
+      <a href="#servicos">Serviços</a>
+    </nav>
+    <a class="header-cta" href="#escolher">Pedir orçamento <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> CUIDADO TÉCNICO PARA O SEU CELULAR</p>
+        <h1 id="hero-title">Seu celular de volta<br>à <span>ativa.</span></h1>
+        <p class="hero-description">Encontre seu aparelho em poucos toques e conte com a Gislan Tec para cuidar do conserto.</p>
+        <a class="button button-primary hero-button" href="#escolher">
+          <span class="button-icon" aria-hidden="true">⌕</span>
+          Escolher meu celular
+          <span class="button-arrow" aria-hidden="true">↓</span>
+        </a>
+        <div class="hero-assurance" aria-label="Atendimento simples e direto">
+          <span><b aria-hidden="true">✓</b> Fácil de escolher</span>
+          <span><b aria-hidden="true">✓</b> Orçamento direto</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Atalho para selecionar seu telefone">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="visual-spark spark-one" aria-hidden="true">✦</div>
+        <div class="visual-spark spark-two" aria-hidden="true">✳</div>
+        <div class="phone-tile" aria-hidden="true">
+          <div class="phone-speaker"></div>
+          <span class="phone-tile-mark">GT</span>
+          <span class="phone-tile-caption">Seu próximo<br>conserto começa aqui</span>
+          <span class="phone-tile-glow"></span>
+        </div>
+        <div class="selection-card">
+          <span class="selection-label">VAMOS COMEÇAR?</span>
+          <strong>Qual celular<br>precisa de cuidado?</strong>
+          <a class="button button-dark" href="#escolher">Escolher telefone <span aria-hidden="true">→</span></a>
+        </div>
+        <span class="visual-note">Rápido, simples e sem complicação</span>
+      </div>
+      <a class="scroll-cue" href="#escolher"><span aria-hidden="true">↓</span> role para escolher seu aparelho</a>
+    </section>
+
+    <section class="finder-section" id="escolher" aria-labelledby="finder-title">
+      <div class="section-shell finder-shell">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> ORÇAMENTO EM POUCOS PASSOS</p>
+          <h2 id="finder-title">Vamos encontrar<br><span>o seu aparelho.</span></h2>
+          <p>Escolha a marca e o modelo. Se não souber qual conserto precisa, tudo bem — a gente ajuda.</p>
+        </div>
+
+        <div class="finder-card">
+          <div class="progress-row" aria-label="Etapas da escolha">
+            <div class="progress-step is-current" data-progress="1"><span>1</span> Marca</div>
+            <span class="progress-line"></span>
+            <div class="progress-step" data-progress="2"><span>2</span> Modelo</div>
+            <span class="progress-line"></span>
+            <div class="progress-step" data-progress="3"><span>3</span> Conserto</div>
+          </div>
+
+          <div class="finder-step" id="brand-step">
+            <div class="step-title-row">
+              <div><span class="step-kicker">ETAPA 01</span><h3>Qual é a marca?</h3></div>
+              <span class="step-number">01 <i>/ 03</i></span>
+            </div>
+            <div class="brand-grid" id="brand-list" aria-label="Escolha a marca do celular">
+              <button class="brand-option" type="button" data-brand="Apple" aria-pressed="false"><span class="brand-symbol apple-symbol" aria-hidden="true">●</span><span>Apple</span><span class="option-arrow" aria-hidden="true">↗</span></button>
+              <button class="brand-option" type="button" data-brand="Samsung" aria-pressed="false"><span class="brand-symbol samsung-symbol" aria-hidden="true">S</span><span>Samsung</span><span class="option-arrow" aria-hidden="true">↗</span></button>
+              <button class="brand-option" type="button" data-brand="Motorola" aria-pressed="false"><span class="brand-symbol moto-symbol" aria-hidden="true">M</span><span>Motorola</span><span class="option-arrow" aria-hidden="true">↗</span></button>
+              <button class="brand-option" type="button" data-brand="Xiaomi" aria-pressed="false"><span class="brand-symbol xiaomi-symbol" aria-hidden="true">mi</span><span>Xiaomi</span><span class="option-arrow" aria-hidden="true">↗</span></button>
+              <button class="brand-option brand-other" type="button" data-brand="Outra marca" aria-pressed="false"><span class="brand-symbol other-symbol" aria-hidden="true">+</span><span>Outra marca</span><span class="option-arrow" aria-hidden="true">↗</span></button>
+            </div>
+          </div>
+
+          <div class="finder-step model-step" id="model-step" hidden>
+            <div class="step-title-row">
+              <div><span class="step-kicker">ETAPA 02</span><h3>Qual é o modelo?</h3></div>
+              <button class="text-button" id="change-brand" type="button">← Trocar marca</button>
+            </div>
+            <p class="chosen-brand" id="chosen-brand"></p>
+            <label class="search-box" for="model-search">
+              <span aria-hidden="true">⌕</span>
+              <input id="model-search" type="search" autocomplete="off" placeholder="Buscar modelo (ex.: Galaxy A55)" aria-label="Buscar modelo do celular">
+              <kbd>⌘ K</kbd>
+            </label>
+            <div class="custom-model" id="custom-model" hidden>
+              <label for="custom-model-input">Digite a marca e o modelo</label>
+              <div class="custom-model-row"><input id="custom-model-input" type="text" placeholder="Ex.: Realme C55"><button class="button button-small" id="add-custom-model" type="button">Usar modelo</button></div>
+            </div>
+            <p class="popular-label" id="popular-label">MODELOS POPULARES</p>
+            <div class="model-grid" id="model-list" aria-live="polite"></div>
+            <p class="empty-results" id="empty-results" hidden>Nenhum modelo encontrado. Confira o nome ou escreva o modelo acima.</p>
+          </div>
+
+          <div class="finder-step service-step" id="service-step" hidden>
+            <div class="step-title-row">
+              <div><span class="step-kicker">ETAPA 03</span><h3>O que aconteceu?</h3></div>
+              <span class="step-number">03 <i>/ 03</i></span>
+            </div>
+            <div class="selected-device" id="selected-device"></div>
+            <div class="service-grid" id="service-list" aria-label="Escolha o tipo de conserto">
+              <button class="service-option" type="button" data-service="Troca de tela"><span aria-hidden="true">▧</span><span>Tela quebrada</span></button>
+              <button class="service-option" type="button" data-service="Troca de bateria"><span aria-hidden="true">▰</span><span>Bateria</span></button>
+              <button class="service-option" type="button" data-service="Conector de carga"><span aria-hidden="true">⌁</span><span>Não carrega</span></button>
+              <button class="service-option" type="button" data-service="Outro problema"><span aria-hidden="true">···</span><span>Outro problema</span></button>
+            </div>
+            <label class="notes-label" for="problem-note">Quer contar mais alguma coisa? <span>(opcional)</span></label>
+            <textarea id="problem-note" rows="2" maxlength="240" placeholder="Conte em uma frase o que houve com o aparelho"></textarea>
+            <div class="request-row">
+              <button class="text-button" id="back-to-model" type="button">← Voltar ao modelo</button>
+              <button class="button button-primary" id="request-quote" type="button" disabled>Solicitar orçamento <span aria-hidden="true">↗</span></button>
+            </div>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </div>
+          <p class="privacy-note"><span aria-hidden="true">✦</span> A escolha do aparelho leva só alguns segundos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits-section section-shell" id="servicos" aria-labelledby="benefits-title">
+      <div class="benefits-heading"><p class="eyebrow"><span class="eyebrow-dot"></span> GISLAN TEC</p><h2 id="benefits-title">Tecnologia merece<br><span>cuidado de verdade.</span></h2></div>
+      <div class="benefit-list">
+        <article class="benefit"><span class="benefit-icon" aria-hidden="true">01</span><div><h3>Escolha sem adivinhar</h3><p>Encontre seu modelo ou informe outro aparelho em poucos passos.</p></div></article>
+        <article class="benefit"><span class="benefit-icon" aria-hidden="true">02</span><div><h3>Explique do seu jeito</h3><p>Selecione o problema ou conte com suas palavras o que aconteceu.</p></div></article>
+        <article class="benefit"><span class="benefit-icon" aria-hidden="true">03</span><div><h3>Converse com a assistência</h3><p>Envie os detalhes do aparelho para continuar o atendimento.</p></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main section-shell">
+      <div class="footer-copy"><a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">G</span><span class="brand-copy"><strong>Gislan Tec</strong><small>ASSISTÊNCIA TÉCNICA</small></span></a><p>Seu celular merece uma segunda vida.</p><span class="footer-tag">CUIDAMOS DO QUE TE CONECTA <span aria-hidden="true">✦</span></span></div>
+      <img class="footer-phone" src="assets/telefone-gislan.svg" alt="Ilustração de um celular laranja com a marca Gislan Tec na tela" loading="lazy" width="360" height="360">
+    </div>
+    <div class="footer-bottom section-shell"><span>© <span id="current-year">2026</span> Gislan Tec. Todos os direitos reservados.</span><a href="#inicio">Voltar ao topo ↑</a></div>
+  </footer>
+</body>
+</html>
+
