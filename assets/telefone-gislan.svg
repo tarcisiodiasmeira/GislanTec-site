@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480" fill="none">
+  <defs>
+    <linearGradient id="shell" x1="120" y1="50" x2="356" y2="439" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB06E"/><stop offset=".48" stop-color="#F36B21"/><stop offset="1" stop-color="#C9430D"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="155" y1="90" x2="330" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4E9"/><stop offset="1" stop-color="#FFD7B5"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="122" y1="44" x2="362" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity=".58"/><stop offset=".45" stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="#63270E" stop-opacity=".22"/>
+    </linearGradient>
+    <filter id="shadow" x="49" y="15" width="386" height="468" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/><feGaussianBlur in="BackgroundImageFix" stdDeviation="14"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/><feOffset dy="10"/>
+      <feGaussianBlur stdDeviation="13"/><feColorMatrix values="0 0 0 0 0.02 0 0 0 0 0.01 0 0 0 0 0 0 0 0 .34 0"/>
+      <feBlend in2="effect1_backgroundBlur" result="effect2_dropShadow"/><feBlend in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+  <circle cx="240" cy="242" r="196" fill="#F36B21" fill-opacity=".12"/>
+  <circle cx="240" cy="242" r="157" stroke="#FF9A5C" stroke-opacity=".27" stroke-width="2" stroke-dasharray="3 10"/>
+  <path d="M91 338c-32-24-42-60-22-79 16-15 43-8 66 11m252-83c28 26 30 59 10 75-17 13-42 8-62-12" stroke="#FFAB75" stroke-width="3" stroke-linecap="round"/>
+  <path d="m104 145 10 12 15 2-11 10 3 15-13-7-13 7 3-15-11-10 15-2 12-12Z" fill="#FFD2B4"/>
+  <path d="m386 320 6 8 10 2-7 7 2 10-9-5-9 5 2-10-7-7 10-2 2-8Z" fill="#FF9A5C"/>
+  <g filter="url(#shadow)" transform="rotate(10 240 240)">
+    <rect x="137" y="34" width="207" height="412" rx="38" fill="url(#shell)" stroke="#FFE1CA" stroke-width="3"/>
+    <rect x="149" y="48" width="183" height="384" rx="29" fill="url(#screen)"/>
+    <path d="M205 48h71c0 13-9 22-22 22h-27c-13 0-22-9-22-22Z" fill="#27211D"/>
+    <circle cx="269" cy="58" r="3" fill="#A5C2D8"/>
+    <path d="M149 184c49-60 110-83 183-69v135c-56 55-116 76-183 57V184Z" fill="#F36B21" fill-opacity=".1"/>
+    <path d="M153 220c58-75 116-98 174-86" stroke="#FFB47E" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="311" cy="151" r="22" fill="#F36B21" fill-opacity=".11"/>
+    <path d="M301 151h20m-10-10v20" stroke="#E75A17" stroke-width="3" stroke-linecap="round"/>
+    <rect x="171" y="211" width="139" height="135" rx="25" fill="white" fill-opacity=".78"/>
+    <rect x="207" y="230" width="67" height="67" rx="22" fill="url(#shell)"/>
+    <path d="M251 244c-7 0-12 6-15 12-4-6-8-12-16-12-9 0-15 7-15 17 0 16 18 30 28 37 2 1 4 1 6 0 11-8 29-22 29-38 0-9-7-16-17-16Z" fill="white" fill-opacity=".92" transform="translate(17 0) scale(.79)"/>
+    <text x="240.5" y="317" fill="#231D19" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Gislan Tec</text>
+    <text x="240.5" y="332" fill="#8B7B70" font-family="Arial, sans-serif" font-size="7" font-weight="700" letter-spacing="1.6" text-anchor="middle">ASSISTÊNCIA TÉCNICA</text>
+    <rect x="197" y="366" width="87" height="24" rx="12" fill="#F36B21"/>
+    <text x="240.5" y="382" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle">CUIDAMOS DE VOCÊ</text>
+    <rect x="137" y="34" width="207" height="412" rx="38" fill="url(#glass)"/>
+    <rect x="343" y="119" width="4" height="58" rx="2" fill="#D95419"/>
+    <rect x="343" y="193" width="4" height="37" rx="2" fill="#D95419"/>
+  </g>
+</svg>
+
